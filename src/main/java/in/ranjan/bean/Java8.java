@@ -14,6 +14,9 @@ public class Java8 {
 	
 	public static void main(String[] args) {
 	 String s="karan";
+	 
+	 List<String> sorted = Arrays.stream(s.split("")).sorted().collect(Collectors.toList());
+	 System.out.println(sorted);
 //	 char[] charArray = s.toCharArray();
 		
 		//1.Java Program to count occurance of each character in a string
